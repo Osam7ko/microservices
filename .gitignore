@@ -1,0 +1,23 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+# Environment
+.env
+application-local.yml
+application-local.properties
+
+# Docker volumes or databases
+docker/mysql/data/
+volume-data/
+*.sock
+
