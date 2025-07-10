@@ -23,4 +23,5 @@ public class RestClintConfig {
         var httpServiceProxyFactory = HttpServiceProxyFactory.builderFor(restClientAdapter).build();
         return httpServiceProxyFactory.createClient(InventoryClint.class);
     }
+
 }
